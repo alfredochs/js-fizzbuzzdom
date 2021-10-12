@@ -4,7 +4,7 @@ row.classList.add("row", "my-row-cols-7");
 containerTabella.append(row);
 for (i = 1; i <= 100; i++) {
     const myBox = document.createElement("div");
-    myBox.classList.add("ratio", "ratio-1x1", "cella-normale");
+    myBox.classList.add("ratio", "ratio-1x1", "cella-normale", "centratura");
     myBox.textContent = i;
     row.append(myBox);
 
