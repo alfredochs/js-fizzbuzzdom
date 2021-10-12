@@ -1,3 +1,4 @@
+
 .general-bg{
     background-color: #083B4D
 }
@@ -15,4 +16,17 @@
 
 .multiplo3-5{
     background-color: #F04670;
+}
+
+.my-box{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+}
+
+.my-row-cols-7 > div{
+    width: calc(100% / 7 - 10px) ;
+    margin: 5px;
 }
